@@ -4,9 +4,9 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
   // For netlify
-  generate: {
-    fallback: true
-  },
+  // generate: {
+  //   fallback: true
+  // },
 
   // Target: https://go.nuxtjs.dev/config-target
   // target: "static",
@@ -37,9 +37,9 @@ export default {
   components: true,
 
   // Port
-  server: {
-    port: process.env.PORT || 3000
-  },
+  // server: {
+  //   port: process.env.PORT || 3000
+  // },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
