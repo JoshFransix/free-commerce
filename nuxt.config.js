@@ -4,12 +4,12 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
   // For netlify
-  generate: {
-    fallback: true
-  },
+  // generate: {
+  //   fallback: true
+  // },
 
   // Target: https://go.nuxtjs.dev/config-target
-  target: "static",
+  // target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -20,7 +20,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Free eCommerce Site Built With NuxtJS ❤",
+        content: "Your eCommerce Site Built With NuxtJS ❤",
       },
       { name: "format-detection", content: "telephone=no" },
     ],
